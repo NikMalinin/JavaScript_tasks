@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+form{
+    width: 500px;
+    padding: 10px 0 30px 0;
+}
+
+.form_item{
+    margin-bottom: 10px;
+}

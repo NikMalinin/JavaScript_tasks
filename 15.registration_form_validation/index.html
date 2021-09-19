@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="./sweetalert.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>Регистрация</h3>
+
+            <form>
+                <div class="form_item">
+                    <label for="first_name">Имя</label>
+                    <input class="form-control first_name" id="first_name" type="text" name="first_name">
+                    <div class="invalid-feedback">Не корректно указано имя!</div>
+                </div>
+                <div class="form_item">
+                    <label for="last_name">Фамилия</label>
+                    <input class="form-control last_name" id="last_name" type="text" name="last_name">
+                    <div class="invalid-feedback">Не корректно указана фамилия!</div>
+                </div>
+                <div class="form_item">
+                    <label for="mail">Email</label>
+                    <input class="form-control mail" id="mail" type="email" name="mail">
+                    <div class="invalid-feedback">Поле обязательно для заполнения!</div>
+                </div>
+                <div class="form_item">
+                    <label for="login">Логин</label>
+                    <input class="form-control login" id="login" type="text" name="login">
+                    <div class="invalid-feedback">Логин должен содержать не менее 4 символов!</div>
+                </div>
+                <div class="form_item">
+                    <label for="password">Пароль</label>
+                    <input class="form-control password" id="password" type="password" name="password">
+                    <div class="invalid-feedback">Пароль должен содержать не менее 4 символов!</div>
+                </div>
+                <div class="form_item">
+                    <label for="birthday">Дата рождения</label>
+                    <input class="form-control birthday" id="birthday" type="date" name="birthday">
+                </div>
+                <div class="form_item">
+                    Ваш пол:
+                    <div>
+                        <label for="gender">Мужчина</label>
+                        <input type="radio" id="gender" name="gender" checked>
+                    </div>
+                    <div>
+                        <label for="gender">Женщина</label>
+                        <input type="radio" id="gender" name="gender">
+                    </div>
+                </div>
+                <div class="form_item">
+                    <label for="nationality">Национальность</label>
+                    <input class="form-control" id="nationality" type="text" name="nationality">
+                </div>
+                <div class="form_item">
+                    <label for="city">Город</label>
+                    <input class="form-control city" id="city" type="text" name="city">
+                    <div class="invalid-feedback">Укажите город!</div>
+                </div>
+                <div class="form_item">
+                    <label for="hoby">Увличение</label>
+                    <textarea class="form-control" id="hoby" name="hoby"></textarea>
+                </div>
+                <div class="form_item">
+                    Образование:
+                    <div>
+                        <select name="education">
+                            <option value="">Нет образования</option>
+                            <option value="">Среднее</option>
+                            <option value="">Высшее</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form_item">
+                    <label for="namework">Род деятельности</label>
+                    <input class="form-control namework" id="namework" type="text" name="namework">
+                    <div class="invalid-feedback">Где Вы работаете ?</div>
+                </div>
+                <button type="button" id="roommate_registration"
+                    class="btn_registration form_item btn btn-primary">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
