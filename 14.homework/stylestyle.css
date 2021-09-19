@@ -1,0 +1,18 @@
+.num{
+    margin-top: 40px;
+}
+.n{
+    text-transform: uppercase;
+    color: crimson;
+}
+
+.inp7{
+    color: #369;
+    font: 2em Arial,sans-serif;
+    border: none;
+    background-color: #fff;
+    text-decoration: underline;
+}
+.inp7:focus{
+    outline: none;
+}
