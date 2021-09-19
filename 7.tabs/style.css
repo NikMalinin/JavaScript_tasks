@@ -1,0 +1,17 @@
+.tabs{
+    max-width: 400px;
+    border: 1px solid brown;
+    padding: 10px;
+}
+.tabs ul{
+    display: flex;
+    justify-content: space-around;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #F4CA16;
+    cursor: pointer;
+}
