@@ -14,11 +14,10 @@ window.onclick = function (event) {
 function showModal() {
     modal.classList.remove('hide');
     document.onkeydown = function (event) {
+        // В случае нажатия клавиши Esc
         if (event.keyCode == 27) {
-            console.log('lol');
             closeModal();
         }
-        document.onkeydown = null
     }
 }
 
