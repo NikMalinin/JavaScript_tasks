@@ -1,0 +1,29 @@
+.block-slider{
+    height: 350px;
+    width: 250px;
+    border: 1px solid #000;
+    margin: 200px auto;
+    overflow: hidden;
+}
+.form-slider{
+    height: 350px;
+    width: 500px;
+    display: flex;
+    margin-left: 0;
+    transition: all .8s;
+}
+.slider-left, .slider-right{
+    width: 50%;
+    padding: 10px;
+}
+.rules, .rules-beack{
+    cursor: pointer;
+    display: inline-block;
+}
+.slider-left, .slider-right{
+    background-color: coral;
+}
+.slider-right{
+    background-color: cornflowerblue;
+    overflow-y: scroll;
+}
