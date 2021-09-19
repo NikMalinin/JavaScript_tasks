@@ -1,0 +1,9 @@
+.block{
+    display: none;
+    height: 200px;
+    width: 120px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #000;
+}
