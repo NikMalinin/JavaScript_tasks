@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="POST" id="form">
+        <div>
+            <label>
+                <input type="text" name="name" value="Nick">
+            </label>
+            Name
+        </div>
+        <div>
+            <label>
+                <input type="number" name="age" value="25">
+            </label>
+            Age
+        </div>
+        <div>
+            <label>
+                <input type="checkbox" name="terms" checked>
+            </label>
+            Confirm terms of servise
+            <div>
+                <select name="plan">
+                    <option value="frea" selected>frea</option>
+                    <option value="simple">simple</option>
+                    <option value="pro">pro</option>
+                </select>
+                Plan
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
