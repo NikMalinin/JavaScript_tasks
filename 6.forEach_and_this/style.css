@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
